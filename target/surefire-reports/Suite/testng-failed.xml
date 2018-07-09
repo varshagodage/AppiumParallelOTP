@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Test1(failed)" parallel="tests">
+    <parameter name="MobileNo" value="9082961992"/>
+    <parameter name="PORT" value="4723"/>
+    <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
+    <parameter name="UDID" value="HNB33U0D"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <methods>
+          <include name="setCapabilities"/>
+          <include name="quitDriver"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" verbose="0" name="Test2(failed)" parallel="tests">
+    <parameter name="MobileNo" value="9082963376"/>
+    <parameter name="PORT" value="1234"/>
+    <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
+    <parameter name="UDID" value="4100a7d5e40fb135"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <methods>
+          <include name="setCapabilities"/>
+          <include name="quitDriver"/>
+          <include name="Test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

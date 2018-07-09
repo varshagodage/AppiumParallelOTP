@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <parameter name="PORT" value="4723"/>
+    <parameter name="UDID" value="HNB33U0D"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <methods>
+          <include name="setCapabilities"/>
+          <include name="quitDriver"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="PORT" value="1234"/>
+    <parameter name="UDID" value="4100a7d5e40fb135"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <methods>
+          <include name="setCapabilities"/>
+          <include name="quitDriver"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

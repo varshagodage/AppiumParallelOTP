@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AppiumMaven.AppiumM.AppTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <methods>
+          <include name="setCapabilities"/>
+          <include name="quitDriver"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [AppiumMaven.AppiumM.AppTest] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test1">
+  <parameter name="UDID" value="HNB33U0D" />
+    <parameter name="PORT" value="4723" />
+    <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
+     <parameter name="MobileNo" value="9082961992"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+    <parameter name="UDID" value="4100a7d5e40fb135" />
+     <parameter name="PORT" value="1234" />
+     <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
+     <parameter name="MobileNo" value="9082963376"/>
+    <classes>
+      <class name="AppiumMaven.AppiumM.AppTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

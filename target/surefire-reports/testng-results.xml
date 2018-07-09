@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="88306" started-at="2018-07-09T07:41:01Z" finished-at="2018-07-09T07:42:30Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="65099" started-at="2018-07-09T07:41:01Z" finished-at="2018-07-09T07:42:06Z">
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <test-method status="PASS" signature="setCapabilities(java.lang.String, int)[pri:0, instance:AppiumMaven.AppiumM.AppTest@35fb3008]" name="setCapabilities" is-config="true" duration-ms="31502" started-at="2018-07-09T07:41:01Z" finished-at="2018-07-09T07:41:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HNB33U0D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@35fb3008]" name="Test1" duration-ms="28115" started-at="2018-07-09T07:41:33Z" finished-at="2018-07-09T07:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HNB33U0D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9082961992]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="quitDriver(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@35fb3008]" name="quitDriver" is-config="true" duration-ms="5467" started-at="2018-07-09T07:42:01Z" finished-at="2018-07-09T07:42:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=AppTest.Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@35fb3008] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HNB33U0D]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9082961992]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="88306" started-at="2018-07-09T07:41:01Z" finished-at="2018-07-09T07:42:30Z">
+      <class name="AppiumMaven.AppiumM.AppTest">
+        <test-method status="PASS" signature="setCapabilities(java.lang.String, int)[pri:0, instance:AppiumMaven.AppiumM.AppTest@32e6e9c3]" name="setCapabilities" is-config="true" duration-ms="47201" started-at="2018-07-09T07:41:01Z" finished-at="2018-07-09T07:41:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4100a7d5e40fb135]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCapabilities -->
+        <test-method status="PASS" signature="Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@32e6e9c3]" name="Test1" duration-ms="34614" started-at="2018-07-09T07:41:49Z" finished-at="2018-07-09T07:42:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4100a7d5e40fb135]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9082963376]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="quitDriver(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@32e6e9c3]" name="quitDriver" is-config="true" duration-ms="6476" started-at="2018-07-09T07:42:23Z" finished-at="2018-07-09T07:42:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=AppTest.Test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AppiumMaven.AppiumM.AppTest@32e6e9c3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4100a7d5e40fb135]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9082963376]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- AppiumMaven.AppiumM.AppTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
