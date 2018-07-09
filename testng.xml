@@ -5,7 +5,7 @@
   <parameter name="UDID" value="HNB33U0D" />
     <parameter name="PORT" value="4723" />
     <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
-     <parameter name="MobileNo" value="9082961992"/>
+     <parameter name="MobileNo" value="XXXXXXX"/>
     <classes>
       <class name="AppiumMaven.AppiumM.AppTest"/>
     </classes>
@@ -14,7 +14,7 @@
     <parameter name="UDID" value="4100a7d5e40fb135" />
      <parameter name="PORT" value="1234" />
      <parameter name="MsgActivity" value="com.google.android.apps.messaging/com.google.android.apps.messaging.ui.conversationlist.ConversationListActivity"/>
-     <parameter name="MobileNo" value="9082963376"/>
+     <parameter name="MobileNo" value="XXXXXX"/>
     <classes>
       <class name="AppiumMaven.AppiumM.AppTest"/>
     </classes>
